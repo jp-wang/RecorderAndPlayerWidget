@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecorderPlayerView">
+        <attr name="waterColor" format="color" />
+        <attr name="maxTime" format="integer" />
+    </declare-styleable>
+
+    <color name="mainColor">#f85f48</color>
+    <color name="lessGrey">#BDBDBD</color>
+</resources>
