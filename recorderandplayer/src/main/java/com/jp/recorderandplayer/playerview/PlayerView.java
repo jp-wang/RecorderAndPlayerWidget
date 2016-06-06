@@ -32,7 +32,7 @@ public class PlayerView extends FrameLayout {
     int bigCircleColor;
     int bigCircleBorderColor;
     int smallCircleColor;
-    double animationTimeIntervalInSeconds;
+    int animationTimeIntervalInSeconds;
 
     boolean isAnimationStarted;
     PlayerViewBigCircleView bigCircleView;
@@ -80,7 +80,7 @@ public class PlayerView extends FrameLayout {
         this.smallCircleView.setVisibility(View.INVISIBLE);
     }
 
-    public void startAnimation(double animationTimeIntervalInSeconds, PlayerViewListener listener) {
+    public void startAnimation(int animationTimeIntervalInSeconds, PlayerViewListener listener) {
         if (isAnimationStarted)
             return;
         isAnimationStarted = true;
