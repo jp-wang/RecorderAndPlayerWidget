@@ -110,6 +110,10 @@ public class PlayerView extends FrameLayout {
         }
     }
 
+    public boolean isAnimationStarted() {
+        return this.isAnimationStarted;
+    }
+
     private int dipToPixels(float dip) {
         float px = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dip, getResources().getDisplayMetrics());
         return (int) px;
